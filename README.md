@@ -5,12 +5,9 @@
 ![Redux](https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white)
 ![MUI](https://img.shields.io/badge/MUI-007FFF?logo=mui&logoColor=white)
 
-[![Live Demo](https://img.shields.io/badge/Vercel-Live_Demo-black?style=for-the-badge&logo=vercel)](https://gen-ai-dashboard.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Vercel-Live_Demo-black?style=for-the-badge&logo=vercel)]([https://gen-ai-dashboard.vercel.app](https://vercel.com/ritik-agrawals-projects-f87830c2/gen-ai-analytics-dashboard/4WmdZgDfUuESuBZGCBPW3ZH1rW3t))
 [![GitHub Issues](https://img.shields.io/github/issues/ritik447/gen-ai-dashboard?style=for-the-badge)](https://github.com/ritik447/gen-ai-dashboard/issues)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
-
-![Dashboard Preview](https://via.placeholder.com/800x400?text=Gen+AI+Dashboard+Preview)  
-*(Replace with actual screenshot link)*
 
 ---
 

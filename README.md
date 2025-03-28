@@ -40,3 +40,71 @@
 git clone https://github.com/ritik447/gen-ai-dashboard.git
 cd gen-ai-dashboard
 npm install
+src/
+├── components/       # Reusable UI components
+│   ├── QueryInput.jsx
+│   ├── ChartVisualization.jsx
+│   └── ...
+├── store/            # Redux setup
+│   ├── actions/
+│   ├── reducers/
+│   └── store.js
+└── utils/            # Mock AI simulation
+    ├── mockData.js
+    └── simulateProcessing.js
+
+🧠 Our Approach
+1. Simulated AI Interaction
+Built a mock API engine that:
+
+Analyzes query context (e.g., detects "trend", "compare", or time periods)
+
+Generates dynamic mock data using Chart.js
+
+Introduces realistic latency (1.5–2.5s delays) and random errors (10% failure rate)
+
+2. State Management
+Redux Toolkit for centralized state:
+
+Caches query history
+
+Manages async "processing" states
+
+Normalized data structure for scalability
+
+3. Component Design
+Modular Architecture:
+
+QueryInput: Typeahead suggestions with debouncing
+
+ResultsDisplay: Smart loading/error handling
+
+Pure visualization components (Bar/Line charts)
+
+4. UI/UX Philosophy
+Inspired by Behance/Dribble dashboards:
+
+Progressive disclosure of information
+
+Skeleton loading states
+
+Responsive grid (MUI Grid + Flexbox)
+
+5. Evaluation-Centric
+Testable Patterns:
+
+Redux selectors with memoization
+
+Isolated component stories (Storybook-ready)
+
+TypeScript-ready props
+
+Key Innovation
+
+// utils/simulateProcessing.js
+const generateSmartResponse = (query) => {
+  // Context-aware mock data
+  if (query.includes("sales")) return generateSalesData();
+  if (query.includes("month")) return generateTimeSeries();
+  return defaultDataset; 
+};

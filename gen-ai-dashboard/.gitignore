@@ -1,0 +1,81 @@
+# ================================
+# Vite/React Specific
+# ================================
+node_modules/
+dist/
+.temp/
+.cache/
+*.local
+
+# ================================
+# Environment Variables
+# ================================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# ================================
+# Editor/IDE
+# ================================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# ================================
+# System Files
+# ================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# Dependency Files
+# ================================
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ================================
+# Build Files
+# ================================
+build/
+out/
+.next/
+
+# ================================
+# Debug Logs
+# ================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ================================
+# Testing
+# ================================
+coverage/
+.nyc_output/
+jest-results.json
+
+# ================================
+# Lint/Babel Configs
+# ================================
+.eslintcache
+.babelcache
+
+# ================================
+# OS Generated
+# ================================
+ehthumbs.db
+Icon?
+._*
+.Spotlight-V100
+.Trashes
